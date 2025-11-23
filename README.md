@@ -39,7 +39,7 @@ Este repositório concentra artefatos de **QA**, **DevOps** e **documentação**
   Disponível na aba **Wiki** do projeto SafeWork no Azure DevOps.
 
 - 📄 **Relatório Final em PDF:**  
-  `SafeWork_Entrega.pdf`
+  `SafeWork_Entrega_pdf.pdf`
 
 ---
 
