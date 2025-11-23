@@ -31,12 +31,15 @@ Este repositório concentra artefatos de **QA**, **DevOps** e **documentação**
 
 - 🟣 **Azure DevOps – Projeto SafeWork:**  
   https://dev.azure.com/SafeWorkProject/SafeWork
+  
+- 🟢 **Repositório GitHub (JAVA):**  
+  https://github.com/AngelloTDC/SafeWorkJava
 
 - 📘 **Wiki (Documentação detalhada – Azure DevOps):**  
   Disponível na aba **Wiki** do projeto SafeWork no Azure DevOps.
 
 - 📄 **Relatório Final em PDF:**  
-  `SafeWork_Entrega_Final_v2.pdf` (recomendado armazenar em `/docs` neste repositório).
+  `SafeWork_Entrega_Final_v2.pdf`
 
 ---
 
@@ -132,38 +135,6 @@ steps:
 ```
 
 > Mesmo sem CD (deploy automático), essa CI já atende ao foco da disciplina: **build automatizado, rastreabilidade de versões e apoio à qualidade**.
-
----
-
-## ▶️ Como Rodar o Projeto (Exemplo para Backend Java)
-
-> Ajuste conforme a estrutura do seu outro repositório de código, se necessário.
-
-### Pré‑requisitos
-
-- JDK 17  
-- Maven  
-- Banco de dados SQL rodando (ou H2 para ambiente local)  
-- Git
-
-### Passos
-
-```bash
-# Clonar o repositório de código (exemplo)
-git clone https://github.com/AngelloTDC/SafeWork-Backend.git
-cd SafeWork-Backend
-
-# Build
-mvn clean install
-
-# Executar a aplicação
-mvn spring-boot:run
-```
-
-Aplicação disponível em (exemplo):  
-`http://localhost:8080`
-
----
 
 ## 🧰 Tecnologias Utilizadas
 
